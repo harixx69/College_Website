@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Contact Us | RNS First Grade College</title>
+  <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+
+  <!-- Header -->
+  <header>
+    <div class="container header-container">
+      <!-- Logo -->
+      <div class="logo-container">
+        <img src="images/logo.png" alt="College Logo" class="logo" />
+      </div>
+      <!-- College Name -->
+      <div class="college-name">
+        <h1>RNS First Grade College</h1>
+      </div>
+    </div>
+  </header>
+  
+ 
+   <!-- Navigation -->
+   <nav class="navbar">
+    <ul>
+      <li><a href="index.html" class="active">Home</a></li>
+      <li><a href="about.html">About</a></li>
+      <li><a href="courses.html">Courses</a></li>
+      <li><a href="faculty.html">Faculty</a></li>
+      <li><a href="admissions.html">Admissions</a></li>
+      <li><a href="contact.html">Contacts</a></li>
+    </ul>
+  </nav>
+
+  <!-- Contact Information -->
+  <section class="contact-info">
+    <div class="container">
+      <h2>Contact Information</h2>
+      <p><strong>Address:</strong> Dr. Vishnuvardhan Road, Channasandra, RR Nagar Post, Bengaluru, Karnataka – 560098</p>
+      <p><strong>Phone:</strong> 080-28611110, 9141095892</p>
+      <p><strong>Email:</strong> <a href="mailto:enquiryrnsfgc@gmail.com">enquiryrnsfgc@gmail.com</a></p>
+      <p><strong>Principal:</strong> Dr. Sudheer Pai K.L – <a href="mailto:principalrnsfgc@gmail.com">principalrnsfgc@gmail.com</a></p>
+    </div>
+  </section>
+
+  <!-- Contact Form -->
+  <section class="contact-form">
+    <div class="container">
+      <h2>Send Us a Message</h2>
+      <form action="submit_form.php" method="POST">
+        <label for="name">Your Name:</label>
+        <input type="text" id="name" name="name" required placeholder="Enter your full name"/>
+
+        <label for="email">Your Email:</label>
+        <input type="email" id="email" name="email" required placeholder="Enter your email address"/>
+
+        <label for="message">Your Message:</label>
+        <textarea id="message" name="message" required placeholder="Write your message here"></textarea>
+
+        <button type="submit">Send Message</button>
+      </form>
+    </div>
+  </section>
+
+ <!-- Google Map -->
+<section class="map">
+    <div class="container">
+      <h2>Our Location</h2>
+      <div class="map-container">
+        <iframe 
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d124404.50280372692!2d77.4351257!3d12.9010598!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bae3fa4199cfb2b%3A0x2f21b3f01b7af967!2sRNSIT%20Boys%20Hostel-2%2C%20RNSIT%20Campus%2C%20Dr.%20Vishnuvardhan%20Road%2C%20Post%2C%20Channasandra%2C%20Rajarajeshwari%20Nagar%2C%20Bengaluru%2C%20Karnataka%20560098!5e0!3m2!1sen!2sin!4v1714834692634!5m2!1sen!2sin" 
+          width="100%" 
+          height="400" 
+          style="border:0;" 
+          allowfullscreen="" 
+          loading="lazy" 
+          referrerpolicy="no-referrer-when-downgrade">
+        </iframe>
+      </div>
+    </div>
+  </section>
+  
+  <!-- Footer -->
+  <footer>
+    <div class="container">
+      <p>&copy; 2025 RNS First Grade College. All rights reserved.</p>
+    </div>
+  </footer>
+
+</body>
+</html>
